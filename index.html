@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <div class="container">
+        
+            <!-- Top row, which contains logo on left and name on right -->
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/udacityLogo.png" alt="Udacity logo" class="title-logo">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Jane Doette</h1>
+                    <h3>Front-end Ninja</h3>
+                </div>
+            </div>
+            
+            <!-- Horizontal rule -->
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            
+            <!-- Large main image, which is a picture of html code -->
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="images/html.jpg" alt="Picture of html code">
+                <!-- <img class="img-responsive" src="http://placehold.it/1140x350" alt="Picture of html code"> -->
+                </div>
+            </div>
+            
+            <!-- Row that contains the words "Featured Work" -->
+            <div class="row">
+                <div class="col-md-12  text-muted">
+                    <h2 id="imageTitle">Featured Work</h2>
+                </div>
+            </div>
+            
+            <!-- Row on bottom of page, which contains small images and their labels -->
+            <div class="row text-center">
+            
+                <div class="col-md-4">
+                    <img src="images/appStore.jpg" alt="App Store" class="img-responsive" data-toggle="modal" data-target="#appModal">
+                    <h3 class="text-uppercase">Appify</h3>
+                    <p><a href="https://itunes.apple.com/us/genre/ios/id36?mt=8">Apple App Store</a></p>
+                </div>
+                
+                <div class="col-md-4">
+                    <img src="images/sunflower.jpg" alt="Sunflower" class="img-responsive" data-toggle="modal" data-target="#sunflowerModal">
+                    <h3 class="text-uppercase">Sunflower</h3>
+                    <p><a href="http://www.canstockphoto.com/images-photos/sunflower.html">Sunflower Images</a></p>
+                </div>
+                
+                <div class="col-md-4">
+                    <img src="images/bokeh.jpg" alt="Bokeh" class="img-responsive" data-toggle="modal" data-target="#bokehModal">
+                    <h3 class="text-uppercase">Bokeh</h3>
+                    <p><a href="http://en.wikipedia.org/wiki/Bokeh">Bokeh Article</a></p>
+                </div>
+                
+            </div>
+            
+        </div>   <!-- End of div class="container" -->
+        
+        <!-- Modal for App Store -->
+        <div class="modal fade" id="appModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                    </div>
+                    
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/smilingFace.png" alt="Smiling Face">
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </div>
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>   <!-- End of modal for app store -->
+        
+         <!-- Modal for Sunflower -->
+        <div class="modal fade" id="sunflowerModal" tabindex="-1" role="dialog" aria-labelledby="sunflowerModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="sunflowerModalLabel">Sunflower Modal Title</h4>
+                    </div>
+                    
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/smilingFace.png" alt="Smiling Face">
+                        This is the body of the sunflower modal.
+                    </div>
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>   <!-- End of modal for sunflower -->
+        
+        <!-- Modal for Bokeh -->
+        <div class="modal fade" id="bokehModal" tabindex="-1" role="dialog" aria-labelledby="bokehModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="bokehModalLabel">Bokeh Modal Title</h4>
+                    </div>
+                    
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/smilingFace.png" alt="Smiling Face">
+                        This is the body of the bokeh modal.
+                    </div>
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>   <!-- End of modal for bokeh -->
+    
+    </body>
+</html>

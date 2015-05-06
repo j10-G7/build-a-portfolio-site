@@ -1,0 +1,40 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+#imageTitle {
+    color: #F22;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* This css is based on the code at
+   http://stackoverflow.com/questions/4151743/how-i-change-the-thickness-of-my-hr-tag */
+hr {
+	border: none;
+    height: 1px;
+    color: #CCC;                 /* Old IE */
+    background-color: #CCC;      /* Modern Browsers */
+    border-top: 2px solid #CCC;  /* Make the hr thicker */
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: #747704;
+}
